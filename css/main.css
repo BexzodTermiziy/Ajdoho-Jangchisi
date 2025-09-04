@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -361,7 +362,7 @@ body {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Poppins",sans-serif;
 }
 
 .container {
@@ -382,5 +383,38 @@ body {
 
 .header {
   background-color: red;
+}
+
+#btnsa {
+  background-color: #ff5722;
+  color: white;
+  -webkit-box-shadow: 0 0 5px #ff5722;
+          box-shadow: 0 0 5px #ff5722;
+}
+
+#btn__css {
+  background-color: #2282ff;
+  color: white;
+  -webkit-box-shadow: 0 0 5px #2282ff;
+          box-shadow: 0 0 5px #2282ff;
+}
+
+#btn__boot {
+  background-color: #6533c2;
+  color: white;
+  -webkit-box-shadow: 0 0 5px #6533c2;
+          box-shadow: 0 0 5px #6533c2;
+}
+
+.nav-link {
+  font-weight: 530;
+}
+
+.dropdown-item {
+  font-weight: 530;
+}
+
+#navlinka:hover {
+  color: #6533c2;
 }
 /*# sourceMappingURL=main.css.map */
